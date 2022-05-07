@@ -302,9 +302,7 @@ header .navbar-nav .nav-link {
   font-family: "Poppins";
   font-size: 48px;
   line-height: 53px;
-
   text-decoration-line: underline;
-
   color: #ffffff;
 }
 
@@ -322,8 +320,43 @@ header .navbar-nav .nav-link {
   font-weight: 700;
   font-size: 40px;
   line-height: 53px;
-
   text-align: center;
-
   color: #ffffff;
+}
+
+.btn-transparent,
+.discord-btn,
+.twitter-btn,
+.btn-transparent {
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-transparent:hover,
+.discord-btn:hover,
+.twitter-btn:hover,
+.btn-transparent:hover {
+  transform: scale(1.09);
+  box-shadow: 2px 3px 16px rgba(3, 66, 255, 0.511);
+}
+.copywrite p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+a:hover {
+  color: unset !important;
+}
+
+@media (max-width: 578px) {
+  .followtext {
+    font-weight: 700;
+    font-family: "Poppins";
+    font-size: 38px;
+    line-height: 53px;
+  }
 }
