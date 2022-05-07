@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+/* font-family: 'Rubik', sans-serif; */
+html {
+  font-size: 10px !important;
+}
+.body-wrapper {
+  background: url("./assets/img/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+/*===================== HEADER STYLES ================*/
+header * {
+  font-family: "Roboto", sans-serif;
+  color: white !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("./assets/svg/menu_icon.svg");
+}
+header .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btn-transparent {
+  background-color: transparent !important;
+  border: 2px solid #1da1f2;
+  border-radius: 800px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+.discord-btn {
+  background: #7289da;
+  border: 2px solid #7289da;
+  border-radius: 800px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.hero-header-wrapper {
+  min-height: 100vh;
+}
+
+/*======================= HERO SECTION STYLES =======================*/
+
+.hero .left-hero h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 85px;
+  /* or 133% */
+
+  color: #ffffff;
+}
+.left-hero {
+  max-width: 604px;
+  width: 100%;
+}
+
+.right-hero {
+  max-width: 752px;
+  width: 100%;
+}
