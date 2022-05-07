@@ -5,8 +5,9 @@ const Overview = () => {
         <div>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-12 d-flex justify-content-center">
+                    <div className="col-12 d-flex justify-content-center d-flex flex-column">
                         <p className="wolves-overview-header font-family-poppins">World of Wolves Overview</p>
+                        <div className="border-line"></div>
                     </div>
                     <div className="col-xl-4 col-md-6 mt-5">
                         <div className="wolves-card">
@@ -287,6 +288,8 @@ const Overview = () => {
                     </div>
                     <div className="col-lg-6 mt-lg-0 mt-4">
                         <p className="world-wolves">Welcome To World of Wolves</p>
+                        <div className="border-line"></div>
+
                         <p className="mt-5 world-wolves-para">
                             World of Wolves is a concept that allows holders to breed their Alpha & Luna Wolves to make a new generation. This new
                             generation of wolves will get access to frequent & exclusive trait drops so holders have the chance to upgrade and evolve

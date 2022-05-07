@@ -6,6 +6,7 @@ const Plateform = () => {
             <div className="container d-flex flex-lg-row flex-column justify-content-between align-items-center">
                 <div className="left-plateform mb-5 mb-lg-0">
                     <h3 className="world-wolves">Advanced Staking Platform</h3>
+                    <div className="border-line"></div>
                     <p className="world-wolves-para">
                         Our staking platform uses next gen technology which allows holders to keep their NFT in their wallet and still claim our $WOW
                         token over time.
