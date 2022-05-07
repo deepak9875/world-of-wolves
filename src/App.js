@@ -4,6 +4,7 @@ import Header from "./components/common/Header";
 import Hero from "./components/home/Hero";
 import Overview from "./components/home/Overview";
 import Plateform from "./components/home/Plateform";
+import Team from "./components/home/Team";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </div>
       <Overview />
       <Plateform />
+      <Team />
       <Footer />
     </div>
   );
