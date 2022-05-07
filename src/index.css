@@ -82,3 +82,8 @@ code {
 a {
     text-decoration: none;
 }
+.border-line {
+    height: 1px;
+    width: 97px;
+    background: linear-gradient(#1da1f2, #14f195);
+}
