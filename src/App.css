@@ -8,170 +8,217 @@
 /* font-family: 'Rubik', sans-serif; */
 /* font-family: 'Inter', sans-serif; */
 html {
-  font-size: 10px !important;
+    font-size: 10px !important;
 }
 
 .body-wrapper {
-  background: url("./assets/img/background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  color: white;
-  width: 100%;
+    background: url("./assets/img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+    width: 100%;
 }
 
 /*===================== HEADER STYLES ================*/
 header * {
-  font-family: "Roboto", sans-serif;
-  color: white !important;
+    font-family: "Roboto", sans-serif;
+    color: white !important;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("./assets/svg/menu_icon.svg");
+    background-image: url("./assets/svg/menu_icon.svg");
 }
 
 header .navbar-nav .nav-link {
-  color: white !important;
-  font-weight: 700;
-  font-size: 18px;
+    color: white !important;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .btn-transparent {
-  background-color: transparent !important;
-  border: 2px solid #1da1f2;
-  border-radius: 800px;
-  font-family: "Rubik", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  color: white;
+    background-color: transparent !important;
+    border: 2px solid #1da1f2;
+    border-radius: 800px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
 }
 .navbar-toggler {
-  font-size: 22px;
+    font-size: 22px;
 }
 .discord-btn {
-  background: #7289da;
-  border: 2px solid #7289da;
-  border-radius: 800px;
-  font-family: "Rubik", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
+    background: #7289da;
+    border: 2px solid #7289da;
+    border-radius: 800px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .hero-header-wrapper {
-  min-height: 100vh;
+    min-height: 100vh;
+}
+.fs-64 {
+    font-size: 64px;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.font-family-poppins {
+    font-family: "Poppins";
 }
 
 /*======================= HERO SECTION STYLES =======================*/
 
 .hero .left-hero h1 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 6.4rem;
-  /* or 133% */
-  color: #ffffff;
-  line-height: 8.5rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.4rem;
+    /* or 133% */
+    color: #ffffff;
+    line-height: 8.5rem;
 }
 
 .hero .left-hero h2 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
 
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .hero .left-hero .title {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  font-family: "Inter", sans-serif;
-  white-space: nowrap;
-  text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "Inter", sans-serif;
+    white-space: nowrap;
+    text-align: center;
 }
 
 .detail {
-  color: white !important;
-  white-space: nowrap;
+    color: white !important;
+    white-space: nowrap;
 }
 
 .hero .left-hero .title .active {
-  color: #1da1f2;
+    color: #1da1f2;
 }
 
 .list-style-type-none {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 @media (min-width: 300px) {
-  html {
-    font-size: 5.5px !important;
-  }
+    html {
+        font-size: 5.5px !important;
+    }
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 5.5px !important;
-  }
+    html {
+        font-size: 5.5px !important;
+    }
 }
 
 @media (min-width: 992px) {
-  html {
-    font-size: 5.5px !important;
-  }
-  .left-hero {
-    max-width: 100%;
-    width: 100%;
-  }
+    html {
+        font-size: 5.5px !important;
+    }
+    .left-hero {
+        max-width: 100%;
+        width: 100%;
+    }
 
-  .right-hero {
-    max-width: 100%;
-    width: 100%;
-  }
+    .right-hero {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 @media (min-width: 1200px) {
-  html {
-    font-size: 6px !important;
-  }
-  .left-hero {
-    max-width: 470px;
-    width: 100%;
-  }
+    html {
+        font-size: 6px !important;
+    }
+    .left-hero {
+        max-width: 470px;
+        width: 100%;
+    }
 
-  .right-hero {
-    max-width: 550px;
-    width: 100%;
-  }
+    .right-hero {
+        max-width: 550px;
+        width: 100%;
+    }
 }
 
 @media (min-width: 1400px) {
-  html {
-    font-size: 7px !important;
-  }
-  .left-hero {
-    max-width: 550px;
-    width: 100%;
-  }
+    html {
+        font-size: 7px !important;
+    }
+    .left-hero {
+        max-width: 550px;
+        width: 100%;
+    }
 
-  .right-hero {
-    max-width: 650px;
-    width: 100%;
-  }
+    .right-hero {
+        max-width: 650px;
+        width: 100%;
+    }
 }
 
 @media (min-width: 1600px) {
-  html {
-    font-size: 10px !important;
-  }
-  .left-hero {
-    max-width: 604px;
-    width: 100%;
-  }
+    html {
+        font-size: 10px !important;
+    }
+    .left-hero {
+        max-width: 604px;
+        width: 100%;
+    }
 
-  .right-hero {
-    max-width: 752px;
-    width: 100%;
-  }
+    .right-hero {
+        max-width: 752px;
+        width: 100%;
+    }
+}
+.overview-heading {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.overview-para li {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "inter";
+}
+.overview-para-2 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "inter";
+}
+.learn-more {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1da1f2;
+}
+.wolves-card {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1), 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 10px 0px 5px 25px;
+}
+.wolves-card ul {
+    padding-left: 0px;
 }
