@@ -124,12 +124,12 @@ header .navbar-nav .nav-link {
     line-height: 56px !important;
   }
   .left-hero {
-    max-width: 100%;
+    max-width: 408px;
     width: 100%;
   }
 
   .right-hero {
-    max-width: 100%;
+    max-width: 534px;
     width: 100%;
   }
 }
