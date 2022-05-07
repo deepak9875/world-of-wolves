@@ -20,32 +20,32 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto d-flex align-items-start align-items-xl-center">
-              <Nav.Link className="mx-3 my-3 my-xl-0" href="#home">
+              <Nav.Link className="mx-2 my-1 my-xl-0" href="#home">
                 Whitepaper
               </Nav.Link>
-              <Nav.Link className="mx-3 my-3 my-xl-0" href="#link">
+              <Nav.Link className="mx-2 my-1 my-xl-0" href="#link">
                 Staking
               </Nav.Link>
-              <Nav.Link className="mx-3 my-3 my-xl-0" href="#link">
+              <Nav.Link className="mx-2 my-1 my-xl-0" href="#link">
                 Team
               </Nav.Link>
 
               <Nav.Link
-                className="mx-3 my-3 my-xl-0 btn-transparent px-4 py-2"
+                className="mx-2 my-2 my-xl-0 btn-transparent px-4 py-2"
                 href="#link"
               >
                 <TwitterIcon />
                 <span className="d-inline-block px-2">Twitter</span>
               </Nav.Link>
               <Nav.Link
-                className="mx-3 my-3 my-xl-0 discord-btn px-4 py-2"
+                className="mx-2 my-2 my-xl-0 discord-btn px-4 py-2"
                 href="#link"
               >
                 <DiscordIcon />
                 <span className="d-inline-block px-2">Discord</span>
               </Nav.Link>
               <Nav.Link
-                className="mx-3 my-3 my-xl-0 btn-transparent px-4 py-2"
+                className="mx-2 my-2 my-xl-0 btn-transparent px-4 py-2"
                 href="#link"
               >
                 <img src={Magic} className="ms-2" alt="magic" />{" "}

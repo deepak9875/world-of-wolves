@@ -11,12 +11,12 @@ const Hero = () => {
               World of Wolves is a unique concept including staking, breeding,
               customisation & evolution
             </h1>
-            <button className="px-4 my-4  py-2 bg-transparent btn-transparent">
+            <button className="px-4 mt-4  py-2 bg-transparent btn-transparent">
               <img src={Magic} className="ms-2" alt="magic" />{" "}
               <span className="d-inline-block px-2">Magic Eden</span>
             </button>
-            <h2 className="mt-5 ms-3">Alpha Wolves </h2>
-            <div className="d-flex flex-wrap flex-xl-nowrap mt-3 align-items-center">
+            <h2 className="mt-4 ms-3">Alpha Wolves </h2>
+            <div className="d-flex flex-wrap flex-xxl-nowrap mt-2 align-items-center">
               <div className="d-flex mb-2 title align-items-center flex-nowrap ms-3">
                 {" "}
                 <span className="active">Supply:</span>{" "}
@@ -39,8 +39,8 @@ const Hero = () => {
               </div>
             </div>
 
-            <h2 className="mt-5 ms-3">Luna Wolves </h2>
-            <div className="d-flex flex-wrap flex-xl-nowrap mt-3 align-items-center">
+            <h2 className="mt-4 ms-3">Luna Wolves </h2>
+            <div className="d-flex flex-wrap flex-xxl-nowrap mt-2 align-items-center">
               <div className="d-flex mb-2 title align-items-center flex-nowrap ms-3">
                 {" "}
                 <span className="active">Supply</span>{" "}

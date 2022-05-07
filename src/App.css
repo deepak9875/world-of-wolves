@@ -7,9 +7,6 @@
 /* font-family: "Roboto", sans-serif; */
 /* font-family: 'Rubik', sans-serif; */
 /* font-family: 'Inter', sans-serif; */
-html {
-  font-size: 10px !important;
-}
 
 .body-wrapper {
   background: url("./assets/img/background.png");
@@ -60,6 +57,24 @@ header .navbar-nav .nav-link {
 
 .hero-header-wrapper {
   min-height: 100vh;
+}
+.fs-64 {
+  font-size: 64px;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.font-family-poppins {
+  font-family: "Poppins";
 }
 
 /*======================= HERO SECTION STYLES =======================*/
@@ -143,6 +158,28 @@ header .navbar-nav .nav-link {
     max-width: 470px;
     width: 100%;
   }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .left-hero {
+    /* max-width: 100%; */
+    width: 100%;
+  }
+
+  .right-hero {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .left-hero {
+    max-width: 470px;
+    width: 100%;
+  }
 
   .right-hero {
     max-width: 550px;
@@ -176,10 +213,55 @@ header .navbar-nav .nav-link {
     width: 100%;
   }
 
+  .left-hero {
+    max-width: 550px;
+    width: 100%;
+  }
+
+  .right-hero {
+    max-width: 650px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .left-hero {
+    max-width: 604px;
+    width: 100%;
+  }
   .right-hero {
     max-width: 752px;
     width: 100%;
   }
+}
+.overview-heading {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+.overview-para li {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "inter";
+}
+.overview-para-2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "inter";
+}
+.learn-more {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1da1f2;
+}
+.wolves-card {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1), 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 10px 0px 5px 25px;
+}
+.wolves-card ul {
+  padding-left: 0px;
 }
 
 /*==================== PLATEFORM SECTION STYLES ===================*/
