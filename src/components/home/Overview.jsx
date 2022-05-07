@@ -5,8 +5,10 @@ const Overview = () => {
         <div>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-12 d-flex justify-content-center d-flex flex-column">
+                    <div className="col-12 d-flex justify-content-center ">
                         <p className="wolves-overview-header font-family-poppins">World of Wolves Overview</p>
+                    </div>
+                    <div className="col-12 d-flex justify-content-center">
                         <div className="border-line"></div>
                     </div>
                     <div className="col-xl-4 col-md-6 mt-5">
