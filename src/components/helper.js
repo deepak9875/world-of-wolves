@@ -35,3 +35,21 @@ export const Teams = [
     link: "https://twitter.com/libertiye",
   },
 ];
+
+export const Roadmap = [
+  "Alpha Wolves genesis mint (complete)",
+  "Staking platform built (complete)",
+  "$WOW token created (complete)",
+  "Luna Wolves 2nd gen mint",
+  "World of Wolves launch",
+  "...and much more",
+];
+
+export const Utility = [
+  "Breeding",
+  "Upgrading your Wolf Pups",
+  "NFT customisation",
+  " Auctions & Raffles",
+  "Exclusive merchandise",
+  "P2E game",
+];
