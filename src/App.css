@@ -61,6 +61,10 @@ header .navbar-nav .nav-link {
 .fs-64 {
   font-size: 64px;
 }
+
+.fs-48 {
+  font-size: 48px;
+}
 .fw-400 {
   font-weight: 400;
 }
@@ -279,4 +283,29 @@ header .navbar-nav .nav-link {
 /* TEAM SECTION STYLES */
 .team-box {
   width: 323.49px;
+}
+
+/* FOOTER STYLES  */
+
+.followtext {
+  font-weight: 700;
+  font-family: "Poppins";
+  font-size: 48px;
+  line-height: 53px;
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.community {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Roboto";
+  line-height: 22px;
+  /* identical to box height, or 140% */
+
+  /* Front color/Description */
+
+  color: #d1d1d1;
 }

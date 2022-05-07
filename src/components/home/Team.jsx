@@ -1,7 +1,6 @@
 import React from "react";
 import { Twitter } from "../common/Icons";
 import { Teams } from "../helper";
-
 const Team = () => {
   return (
     <section className="py-5 my-5">
