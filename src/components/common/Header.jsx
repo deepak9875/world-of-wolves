@@ -6,12 +6,6 @@ import { DiscordIcon, TwitterIcon } from "./Icons";
 const Header = () => {
   return (
     <header className="py-1 text-white">
-      {/* <div className="container d-flex justify-content-between">
-        <div>
-          <img src={Logo} alt="" />
-        </div>
-        <div></div>
-      </div> */}
       <Navbar bg="transparent" expand="xl">
         <Container>
           <Navbar.Brand href="#home">
@@ -48,7 +42,7 @@ const Header = () => {
                 className="mx-2 my-2 my-xl-0 btn-transparent px-4 py-2"
                 href="#link"
               >
-                <img src={Magic} className="ms-2" alt="magic" />{" "}
+                <img src={Magic} className="ms-2" alt="magic" />
                 <span className="d-inline-block px-2">Magic Eden</span>
               </Nav.Link>
             </Nav>
