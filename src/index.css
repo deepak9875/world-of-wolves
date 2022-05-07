@@ -1,13 +1,84 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.wolves-overview-header {
+    font-size: 64px;
+    font-weight: 700;
+}
+.world-wolves {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.world-wolves-para {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "inter";
+}
+
+@media (max-width: 992.98px) {
+    .wolves-overview-header {
+        font-size: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .wolves-overview-header {
+        font-size: 35px;
+    }
+    .world-wolves {
+        font-size: 30px;
+    }
+}
+@media (max-width: 575.98px) {
+    .wolves-overview-header {
+        font-size: 30px;
+    }
+    .overview-heading {
+        font-size: 25px;
+    }
+    .world-wolves-para {
+        font-size: 16px;
+    }
+    .world-wolves {
+        font-size: 25px;
+    }
+}
+@media (max-width: 450.98px) {
+    .wolves-overview-header {
+        font-size: 25px;
+    }
+    .overview-heading {
+        font-size: 20px;
+    }
+    .overview-para li {
+        font-size: 18px;
+    }
+    .world-wolves {
+        font-size: 24px;
+    }
+}
+@media (max-width: 375.98px) {
+    .wolves-overview-header {
+        font-size: 20px;
+    }
+    .world-wolves {
+        font-size: 20px;
+    }
+    .world-wolves-para {
+        font-size: 15px;
+    }
+    .overview-heading {
+        font-size: 18px;
+    }
+}
+a {
+    text-decoration: none;
 }
