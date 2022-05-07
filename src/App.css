@@ -68,10 +68,10 @@ header .navbar-nav .nav-link {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 6.4rem;
+  font-size: 64px;
   /* or 133% */
   color: #ffffff;
-  line-height: 8.5rem;
+  line-height: 85px;
 }
 
 .hero .left-hero h2 {
@@ -105,20 +105,15 @@ header .navbar-nav .nav-link {
 }
 
 @media (min-width: 300px) {
-  html {
-    font-size: 5.5px !important;
-  }
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 5.5px !important;
-  }
 }
 
 @media (min-width: 992px) {
-  html {
-    font-size: 5.5px !important;
+  .hero .left-hero h1 {
+    font-size: 30px !important;
+    line-height: 56px !important;
   }
   .left-hero {
     max-width: 100%;
@@ -132,8 +127,9 @@ header .navbar-nav .nav-link {
 }
 
 @media (min-width: 1200px) {
-  html {
-    font-size: 6px !important;
+  .hero .left-hero h1 {
+    font-size: 36px !important;
+    line-height: 56px !important;
   }
   .left-hero {
     max-width: 470px;
@@ -147,8 +143,9 @@ header .navbar-nav .nav-link {
 }
 
 @media (min-width: 1400px) {
-  html {
-    font-size: 7px !important;
+  .hero .left-hero h1 {
+    font-size: 40px !important;
+    line-height: 56px !important;
   }
   .left-hero {
     max-width: 550px;
@@ -156,14 +153,15 @@ header .navbar-nav .nav-link {
   }
 
   .right-hero {
-    max-width: 650px;
+    max-width: 600px;
     width: 100%;
   }
 }
 
 @media (min-width: 1600px) {
-  html {
-    font-size: 10px !important;
+  .hero .left-hero h1 {
+    font-size: 50px !important;
+    line-height: 85px;
   }
   .left-hero {
     max-width: 604px;
