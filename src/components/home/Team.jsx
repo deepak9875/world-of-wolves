@@ -4,7 +4,7 @@ import { Teams } from "../helper";
 
 const Team = () => {
     return (
-        <section className="py-5 my-5">
+        <section className="py-5 my-5" id="team">
             <div className="container">
                 <h2 className="text-center font-family-poppins wolves-overview-header">The WOW Team</h2>
                 <div className="d-flex justify-content-center">
