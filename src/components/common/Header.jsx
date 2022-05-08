@@ -15,20 +15,23 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto d-flex align-items-start align-items-xl-center">
               <Nav.Link
-                className="mx-2 my-1 my-xl-0"
+                className="mx-3 animated-link px-0  my-1 my-xl-0"
                 target="_blank"
                 href="https://docs.worldofwolves.xyz/introduction/world-of-wolves"
               >
                 Whitepaper
               </Nav.Link>
               <Nav.Link
-                className="mx-2 my-1 my-xl-0"
+                className="mx-3 animated-link px-0  my-1 my-xl-0"
                 target="_blank"
                 href="https://staking.worldofwolves.xyz/"
               >
                 Staking
               </Nav.Link>
-              <Nav.Link className="mx-2 my-1 my-xl-0" href="#team">
+              <Nav.Link
+                className="mx-3 animated-link px-0  my-1 my-xl-0"
+                href="#team"
+              >
                 Team
               </Nav.Link>
 

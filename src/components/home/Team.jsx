@@ -20,9 +20,11 @@ const Team = () => {
                 <div className="text-center mt-3">
                   <h3 className="overview-heading"> {obj.title} </h3>
                   <h6 className="my-3 overview-para-2"> {obj.destination} </h6>
-                  <a target="_blank" href={obj.link}>
-                    <Twitter />
-                  </a>
+                  <div className="team_twitter_icon d-inline-block">
+                    <a target="_blank" href={obj.link}>
+                      <Twitter />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
