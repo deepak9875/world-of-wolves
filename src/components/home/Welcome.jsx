@@ -1,13 +1,26 @@
 import React from "react";
-import wolves from "../../assets/img/wolves-group-img.png";
+import Welcome1 from "../../assets/img/welcome1.png";
+import Welcome2 from "../../assets/img/welcome2.png";
+import Luna from "../../assets/svg/Luna.gif";
 
 const Welcome = () => {
   return (
     <div>
       <div className="container">
         <div className="row my-5  py-5 justify-content-between">
-          <div className="col-lg-5 d-flex align-items-center">
-            <img className="w-100" src={wolves} alt="" />
+          <div className="col-lg-auto d-flex justify-content-center flex-column flex-lg-row align-items-center">
+            {/* <img className="w-100" src={wolves} alt="" /> */}
+            <div className="img-wrapper mb-5 ">
+              <img className="w-100" src={Welcome1} alt="" />{" "}
+            </div>
+            <div>
+              <div className="img-wrapper mb-5 ">
+                <img className="w-100" src={Luna} alt="" />{" "}
+              </div>
+              <div className="img-wrapper mb-5 ">
+                <img className="w-100" src={Welcome2} alt="" />{" "}
+              </div>
+            </div>
           </div>
           <div className="col-lg-6 mt-lg-0 mt-4">
             <p className="world-wolves">Welcome To World of Wolves</p>
