@@ -55,7 +55,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="right-hero mt-5 mt-lg-0 pt-5 py-lg-0 d-flex justify-content-end">
+                    <div className="right-hero mt-5 mt-lg-0 pt-5 py-lg-0 d-flex justify-content-lg-end justify-content-center">
                         <div className="border-1">
                             <div className="border-2">
                                 <div className="border-3">
