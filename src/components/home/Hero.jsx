@@ -56,13 +56,15 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="right-hero mt-5 mt-lg-0 pt-5 py-lg-0 d-flex justify-content-lg-end justify-content-center">
-                        <div className="border-1">
+                        <img src={HeroImg} className="hero-img" alt="" />
+
+                        {/* <div className="border-1">
                             <div className="border-2">
                                 <div className="border-3">
                                     <img src={heroGif} className="hero-img" alt="" />
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
